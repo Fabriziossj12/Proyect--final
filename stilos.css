@@ -214,6 +214,30 @@ text-align: center;
     filter: opacity(0.9);
     transform: scale(1.04);
 }
+.colcontenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+.row_contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.row__contenedor{
+    display: flex;
+    gap: 50px;
+}
 
 
 /* Tablet */
