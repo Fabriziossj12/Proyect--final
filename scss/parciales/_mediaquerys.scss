@@ -1,0 +1,48 @@
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    .header {
+        height: auto;
+    }
+        
+    .header__contenedor {
+        flex-direction: column;
+    }
+
+    .hero__contenedor {
+        flex-direction: column;
+    }
+
+    .hero__left, .hero__right {
+        width: 100%;
+    }
+}
+
+
+/* Movil */
+@media screen and (max-width: 600px) {
+    .nav__lista {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .grid_container{
+      height: 100%;
+    }
+    .row__contenedor{
+        flex-direction: column;
+    
+    }
+    
+    .preguntas_contenedor{
+        flex-direction: column;
+    }
+    .preguntas_contenedor div{
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+    .carrosel{
+        height: 50px;
+        width: 50px;
+    }
+    
+}
