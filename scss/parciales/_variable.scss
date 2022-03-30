@@ -3,3 +3,9 @@
 $Color1:white;
 $color2:black;
 
+$lista1: red, green , yellow, blue;
+$primario: nth ($lista,3);
+h1 {
+    color: $primerio;
+    
+} 
